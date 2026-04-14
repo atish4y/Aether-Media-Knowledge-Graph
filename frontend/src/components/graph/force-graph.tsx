@@ -263,7 +263,7 @@ export function ForceGraph({ data, height = 500, onNodeClick, compact = false }:
       )}
 
       {/* Legend bar below graph — NOT overlaying the canvas */}
-      <div className={`${compact ? 'pt-2 px-1' : 'pt-3 px-1'} flex items-center justify-between`}>
+      <div className={`${compact ? 'pt-2 pb-2 px-1' : 'pt-3 pb-3 px-1'} flex items-center justify-between`}>
         <div className="flex items-center gap-2 flex-wrap">
           {Object.entries(NODE_COLORS).map(([type, color]) => (
             <div
