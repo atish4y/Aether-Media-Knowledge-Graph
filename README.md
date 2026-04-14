@@ -1,97 +1,135 @@
-# Aether — Semantic Media Knowledge Graph 🌌
+# Aether - Semantic Media Knowledge Graph
 
-[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
-[![Neo4j](https://img.shields.io/badge/Neo4j-5.27-008CC1?style=for-the-badge&logo=neo4j)](https://neo4j.com/)
-[![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python)](https://www.python.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
-
-> **Aether** is a high-performance intelligence platform that transforms flat cinematic data into a multi-dimensional **Knowledge Graph**. By combining Graph Science with modern NLP, Aether uncovers hidden relationships between movies, creators, and themes that traditional databases miss.
+Aether is a high-performance, full-stack intelligence platform that transforms cinematic data into a multi-dimensional Knowledge Graph. It leverages Graph Science and Natural Language Processing (NLP) to map complex relationships between films, creators, and narrative themes.
 
 ---
 
-## 🚀 Features
+## 🧠 Graph Science & Neural Embeddings
 
-- **🕸️ Interactive Knowledge Graph**: Visualize the cinematic universe in real-time with a D3-powered force-directed graph. Explore nodes, isolate clusters, and discover non-obvious connections.
-- **🧠 Semantic Intelligence**: Leverages `sentence-transformers` to generate vector embeddings for movie plots, enabling theme-based "Semantic Recommendations" that go beyond keyword matching.
-- **📊 Deep Analytics Dashboard**: Real-time calculation of network metrics including **Graph Density**, **Average Degree**, and **Centrality Metrics** to identify the most influential entities in the database.
-- **⚡ Automated Ingestion**: Seamless bridge with the TMDB API to dynamically ingest and structure raw media data into the specialized Neo4j schema.
-- **🌓 Premium Monochrome UI**: A state-of-the-art aesthetic using the **Geist Typography** system, featuring high-contrast Light/Dark modes optimized for data legibility.
+The core intelligence of Aether operates on a hybrid architecture combining Graph Theory with Neural Vector Search. Here is exactly how media data is mapped to the semantic domain:
 
----
-
-## 🛠️ Architecture
-
-Aether uses a decoupled, high-throughput architecture designed for semantic interoperability.
-
-```mermaid
-graph TD
-    A[Frontend - Next.js 15] <--> B[Backend - FastAPI]
-    B <--> C[(Neo4j Graph Database)]
-    B <--> D[NLP - Sentence Transformers]
-    B <--> E[External - TMDB API]
-    
-    subgraph "Analytics Engine"
-    B --> F[Network Metrics]
-    B --> G[Semantic Embeddings]
-    end
-```
+1. **The Semantic Graph (Neo4j):** Unlike flat databases, Aether stores data as a networked mesh.
+   - **Nodes:** Physical entities like Movies, Actors, Directors, and Genres.
+   - **Relationships:** Directed edges (`ACTED_IN`, `DIRECTED`, `BELONGS_TO`) that define the "flow" of cinematic influence.
+2. **Neural Embeddings (NLP):** Every movie overview is processed through a **Transformer-based model** (`all-MiniLM-L6-v2`).
+   - This encodes the "vibe" and plot of a movie into a 384-dimensional mathematical vector.
+3. **Multi-Dimensional Search:**
+   - **Graph Traversal:** Finding actors' "Degrees of Separation" via multi-hop traversal.
+   - **Vector Similarity:** Calculating the **Cosine Similarity** between movie embeddings to recommend films with similar narrative themes (e.g., matching the psychological tone of *Inception* to *Shutter Island* even if they share no actors).
+4. **Network Intelligence Analytics:**
+   - **Graph Density:** Measures the interconnectedness of the media database.
+   - **Degree Centrality:** Identifies "Knowledge Hubs"—entities like Martin Scorsese or Leonardo DiCaprio who act as primary bridges in the network.
+   - **Sentiment & Year Grouping:** Aggregating temporal trends and genre distribution across the entire Knowledge Graph.
 
 ---
 
-## 📦 Tech Stack
+## ✨ Core Application Features
 
-- **Frontend**: Next.js 15, Tailwind CSS, Geist Sans/Mono, Recharts, React-Force-Graph.
-- **Backend**: FastAPI, Uvicorn, Pydantic v2.
-- **Data Layer**: Neo4j (Cypher Query Language).
-- **AI/NLP**: PyTorch, Sentence-Transformers (all-MiniLM-L6-v2).
+### 🕸️ Interactive Knowledge Graph
+- **Real-Time Visualization:** A dynamic 3D/2D force-directed graph (powered by D3) that allows you to fly through the cinematic universe.
+- **Node Isolation:** Clicking any entity isolates its immediate network, silencing the noise to reveal local social and creative clusters.
+
+### 🧠 Semantic Discovery Engine
+- **Narrative Matching:** Discover movies based on deep plot similarities rather than just tagging.
+- **Cross-Entity Intelligence:** Find links between different directors and actors who have never worked together but share frequent thematic collaborators.
+
+### 📊 Network Analytics Suite
+- **Graph Health Monitoring:** View live stats on Network Density, Average Degree, and Connectivity.
+- **Genre & Temporal Distro:** Beautiful, theme-aware bar and area charts (built with Recharts) that map the skew of the media world.
+
+### ⚡ Automated Knowledge Ingestion
+- **Live TMDB Bridge:** A seamless integration with the TMDB API that intelligently cross-references and structures incoming raw data into the specialized Neo4j graph schema.
+- **Deduplication:** Ensures entity integrity by merging duplicate nodes while preserving historical relationships.
+
+### 🎨 Premium Monochrome Interface
+- **State-of-the-Art Aesthetic:** High-contrast, theme-aware UI utilizing the **Geist Typography** system for a technical, high-resolution feel.
+- **Micro-Animations:** Subtle, buttery-smooth transitions and glassmorphic layouts that prioritize data legibility.
 
 ---
 
-## 🏁 Getting Started
+## 🛠️ Tech Stack & Dependencies
+
+### Frontend
+A technical, high-resolution dashboard built for complex data visualization.
+- **Framework:** Next.js 15 (App Router)
+- **Styling:** Tailwind CSS v4 + Geist Sans/Mono
+- **Icons:** `lucide-react`
+- **Visualization:** `react-force-graph` (D3 Engine), `recharts`
+- **Theme:** `next-themes` (High-contrast Monochrome)
+
+### Backend
+A high-throughput asynchronous API managing graph logistics and NLP pipelines.
+- **Framework:** FastAPI
+- **Database:** Neo4j (Graph Database)
+- **NLP/Machine Learning:** PyTorch + `sentence-transformers`
+- **External Integration:** TMDB API (httpx)
+- **Infrastructure:** Pydantic v2 Settings Management
+
+---
+
+## 🚀 Full Setup & Installation Guide
+
+To run Aether locally, you will need to open **two separate terminals**—one for the backend (Python) and one for the frontend (Node.js).
 
 ### Prerequisites
+- **Neo4j Desktop** or **AuraDB** instance running.
+- **Python 3.10+** installed.
+- **Node.js 18+** installed.
 
-- [Node.js 18+](https://nodejs.org/)
-- [Python 3.10+](https://www.python.org/)
-- [Neo4j Instance](https://neo4j.com/download/) (Local or AuraDB)
+### Part 1: Backend (Graph API & NLP)
 
-### 1. Setup Backend
-```bash
-cd backend
-python -m venv venv
-source venv/bin/activate  # venv\Scripts\activate on Windows
-pip install -r requirements.txt
-# Configure .env with NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD, TMDB_API_KEY
-uvicorn app.main:app --reload
-```
+1. Open your terminal and navigate to the `backend` folder:
+   ```bash
+   cd backend
+   ```
 
-### 2. Setup Frontend
-```bash
-cd frontend
-npm install
-# Configure .env.local with NEXT_PUBLIC_API_URL
-npm run dev
-```
+2. **Create and Activate Virtual Environment:**
+   ```bash
+   python -m venv venv
+   # Windows:
+   .\venv\Scripts\activate
+   # macOS/Linux:
+   source venv/bin/activate
+   ```
+
+3. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Environment Variables:**
+   Create a `.env` file in the `backend` folder:
+   ```env
+   NEO4J_URI=bolt://localhost:7687
+   NEO4J_USER=neo4j
+   NEO4J_PASSWORD=your_password
+   TMDB_API_KEY=your_key
+   ```
+
+5. **Start the API Server:**
+   ```bash
+   uvicorn app.main:app --reload --port 8000
+   ```
+
+### Part 2: Frontend (Intelligence Dashboard)
+
+1. Open a **new terminal window** and navigate to the `frontend` folder:
+   ```bash
+   cd frontend
+   ```
+
+2. **Install Node.js Dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the Development Server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **View the Application:**
+   Open your browser to: `http://localhost:3000`
 
 ---
-
-## 🤝 Contributing
-
-Contributions are welcome! Whether it's adding a new graph algorithm, improving the NLP model, or refining the UI aesthetics, feel free to open a PR.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📜 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
-Developed with ❤️ by [atish4y](https://github.com/atish4y)
+**Explore the hidden architecture of cinema with Aether.**
