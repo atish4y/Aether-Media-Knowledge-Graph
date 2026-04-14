@@ -1,0 +1,622 @@
+{
+  "movies": [
+    {
+      "id": 1, "title": "Inception", "year": 2010, "rating": 8.8,
+      "overview": "A thief who steals corporate secrets through dream-sharing technology is given the task of planting an idea into the mind of a CEO.",
+      "poster_url": null,
+      "genres": ["Sci-Fi", "Action", "Thriller"],
+      "director": {"id": 1, "name": "Christopher Nolan"},
+      "actors": [
+        {"id": 1, "name": "Leonardo DiCaprio"},
+        {"id": 2, "name": "Joseph Gordon-Levitt"},
+        {"id": 3, "name": "Elliot Page"},
+        {"id": 4, "name": "Tom Hardy"}
+      ]
+    },
+    {
+      "id": 2, "title": "The Dark Knight", "year": 2008, "rating": 9.0,
+      "overview": "When the menace known as the Joker wreaks havoc on Gotham, Batman must accept one of the greatest tests to fight injustice.",
+      "poster_url": null,
+      "genres": ["Action", "Crime", "Drama"],
+      "director": {"id": 1, "name": "Christopher Nolan"},
+      "actors": [
+        {"id": 5, "name": "Christian Bale"},
+        {"id": 6, "name": "Heath Ledger"},
+        {"id": 7, "name": "Aaron Eckhart"},
+        {"id": 8, "name": "Michael Caine"}
+      ]
+    },
+    {
+      "id": 3, "title": "Interstellar", "year": 2014, "rating": 8.7,
+      "overview": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      "poster_url": null,
+      "genres": ["Sci-Fi", "Adventure", "Drama"],
+      "director": {"id": 1, "name": "Christopher Nolan"},
+      "actors": [
+        {"id": 9, "name": "Matthew McConaughey"},
+        {"id": 10, "name": "Anne Hathaway"},
+        {"id": 8, "name": "Michael Caine"},
+        {"id": 11, "name": "Jessica Chastain"}
+      ]
+    },
+    {
+      "id": 4, "title": "The Shawshank Redemption", "year": 1994, "rating": 9.3,
+      "overview": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "poster_url": null,
+      "genres": ["Drama"],
+      "director": {"id": 2, "name": "Frank Darabont"},
+      "actors": [
+        {"id": 12, "name": "Tim Robbins"},
+        {"id": 13, "name": "Morgan Freeman"}
+      ]
+    },
+    {
+      "id": 5, "title": "Pulp Fiction", "year": 1994, "rating": 8.9,
+      "overview": "The lives of two mob hitmen, a boxer, a gangster and his wife intertwine in four tales of violence and redemption.",
+      "poster_url": null,
+      "genres": ["Crime", "Drama"],
+      "director": {"id": 3, "name": "Quentin Tarantino"},
+      "actors": [
+        {"id": 14, "name": "John Travolta"},
+        {"id": 15, "name": "Uma Thurman"},
+        {"id": 16, "name": "Samuel L. Jackson"},
+        {"id": 17, "name": "Bruce Willis"}
+      ]
+    },
+    {
+      "id": 6, "title": "The Matrix", "year": 1999, "rating": 8.7,
+      "overview": "A computer programmer discovers that reality as he knows it is a simulation created by machines, and joins a rebellion to overthrow them.",
+      "poster_url": null,
+      "genres": ["Sci-Fi", "Action"],
+      "director": {"id": 4, "name": "Lana Wachowski"},
+      "actors": [
+        {"id": 18, "name": "Keanu Reeves"},
+        {"id": 19, "name": "Laurence Fishburne"},
+        {"id": 20, "name": "Carrie-Anne Moss"}
+      ]
+    },
+    {
+      "id": 7, "title": "Fight Club", "year": 1999, "rating": 8.8,
+      "overview": "An insomniac office worker and a devil-may-care soap maker form an underground fight club.",
+      "poster_url": null,
+      "genres": ["Drama", "Thriller"],
+      "director": {"id": 5, "name": "David Fincher"},
+      "actors": [
+        {"id": 21, "name": "Brad Pitt"},
+        {"id": 22, "name": "Edward Norton"},
+        {"id": 23, "name": "Helena Bonham Carter"}
+      ]
+    },
+    {
+      "id": 8, "title": "Forrest Gump", "year": 1994, "rating": 8.8,
+      "overview": "The presidencies of Kennedy and Johnson through the eyes of an Alabama man with a low IQ.",
+      "poster_url": null,
+      "genres": ["Drama", "Romance"],
+      "director": {"id": 6, "name": "Robert Zemeckis"},
+      "actors": [
+        {"id": 24, "name": "Tom Hanks"},
+        {"id": 25, "name": "Robin Wright"},
+        {"id": 26, "name": "Gary Sinise"}
+      ]
+    },
+    {
+      "id": 9, "title": "The Lord of the Rings: The Fellowship of the Ring", "year": 2001, "rating": 8.8,
+      "overview": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring.",
+      "poster_url": null,
+      "genres": ["Fantasy", "Adventure", "Action"],
+      "director": {"id": 7, "name": "Peter Jackson"},
+      "actors": [
+        {"id": 27, "name": "Elijah Wood"},
+        {"id": 28, "name": "Ian McKellen"},
+        {"id": 29, "name": "Viggo Mortensen"},
+        {"id": 30, "name": "Orlando Bloom"}
+      ]
+    },
+    {
+      "id": 10, "title": "The Lord of the Rings: The Two Towers", "year": 2002, "rating": 8.8,
+      "overview": "While Frodo and Sam edge closer to Mordor, the divided fellowship makes a stand against Sauron's new ally.",
+      "poster_url": null,
+      "genres": ["Fantasy", "Adventure", "Action"],
+      "director": {"id": 7, "name": "Peter Jackson"},
+      "actors": [
+        {"id": 27, "name": "Elijah Wood"},
+        {"id": 28, "name": "Ian McKellen"},
+        {"id": 29, "name": "Viggo Mortensen"},
+        {"id": 30, "name": "Orlando Bloom"},
+        {"id": 31, "name": "Andy Serkis"}
+      ]
+    },
+    {
+      "id": 11, "title": "The Lord of the Rings: The Return of the King", "year": 2003, "rating": 9.0,
+      "overview": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam.",
+      "poster_url": null,
+      "genres": ["Fantasy", "Adventure", "Action"],
+      "director": {"id": 7, "name": "Peter Jackson"},
+      "actors": [
+        {"id": 27, "name": "Elijah Wood"},
+        {"id": 28, "name": "Ian McKellen"},
+        {"id": 29, "name": "Viggo Mortensen"},
+        {"id": 30, "name": "Orlando Bloom"},
+        {"id": 31, "name": "Andy Serkis"}
+      ]
+    },
+    {
+      "id": 12, "title": "Goodfellas", "year": 1990, "rating": 8.7,
+      "overview": "The story of Henry Hill and his life in the mob, covering his relationship with his wife and his mob partners.",
+      "poster_url": null,
+      "genres": ["Crime", "Drama", "Biography"],
+      "director": {"id": 8, "name": "Martin Scorsese"},
+      "actors": [
+        {"id": 32, "name": "Robert De Niro"},
+        {"id": 33, "name": "Ray Liotta"},
+        {"id": 34, "name": "Joe Pesci"}
+      ]
+    },
+    {
+      "id": 13, "title": "The Departed", "year": 2006, "rating": 8.5,
+      "overview": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in Boston.",
+      "poster_url": null,
+      "genres": ["Crime", "Drama", "Thriller"],
+      "director": {"id": 8, "name": "Martin Scorsese"},
+      "actors": [
+        {"id": 1, "name": "Leonardo DiCaprio"},
+        {"id": 35, "name": "Matt Damon"},
+        {"id": 36, "name": "Jack Nicholson"},
+        {"id": 37, "name": "Mark Wahlberg"}
+      ]
+    },
+    {
+      "id": 14, "title": "Django Unchained", "year": 2012, "rating": 8.4,
+      "overview": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a plantation owner.",
+      "poster_url": null,
+      "genres": ["Drama", "Western"],
+      "director": {"id": 3, "name": "Quentin Tarantino"},
+      "actors": [
+        {"id": 38, "name": "Jamie Foxx"},
+        {"id": 39, "name": "Christoph Waltz"},
+        {"id": 1, "name": "Leonardo DiCaprio"},
+        {"id": 16, "name": "Samuel L. Jackson"}
+      ]
+    },
+    {
+      "id": 15, "title": "The Wolf of Wall Street", "year": 2013, "rating": 8.2,
+      "overview": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker to his fall involving crime and corruption.",
+      "poster_url": null,
+      "genres": ["Crime", "Drama", "Comedy"],
+      "director": {"id": 8, "name": "Martin Scorsese"},
+      "actors": [
+        {"id": 1, "name": "Leonardo DiCaprio"},
+        {"id": 40, "name": "Jonah Hill"},
+        {"id": 41, "name": "Margot Robbie"}
+      ]
+    },
+    {
+      "id": 16, "title": "Gladiator", "year": 2000, "rating": 8.5,
+      "overview": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family.",
+      "poster_url": null,
+      "genres": ["Action", "Adventure", "Drama"],
+      "director": {"id": 9, "name": "Ridley Scott"},
+      "actors": [
+        {"id": 42, "name": "Russell Crowe"},
+        {"id": 43, "name": "Joaquin Phoenix"},
+        {"id": 44, "name": "Connie Nielsen"}
+      ]
+    },
+    {
+      "id": 17, "title": "The Prestige", "year": 2006, "rating": 8.5,
+      "overview": "After a tragic accident, two stage magicians in 1890s London engage in a battle to create the ultimate illusion.",
+      "poster_url": null,
+      "genres": ["Drama", "Mystery", "Thriller"],
+      "director": {"id": 1, "name": "Christopher Nolan"},
+      "actors": [
+        {"id": 5, "name": "Christian Bale"},
+        {"id": 45, "name": "Hugh Jackman"},
+        {"id": 46, "name": "Scarlett Johansson"},
+        {"id": 8, "name": "Michael Caine"}
+      ]
+    },
+    {
+      "id": 18, "title": "Se7en", "year": 1995, "rating": 8.6,
+      "overview": "Two detectives hunt a serial killer who uses the seven deadly sins as his motifs.",
+      "poster_url": null,
+      "genres": ["Crime", "Drama", "Mystery"],
+      "director": {"id": 5, "name": "David Fincher"},
+      "actors": [
+        {"id": 21, "name": "Brad Pitt"},
+        {"id": 13, "name": "Morgan Freeman"},
+        {"id": 47, "name": "Gwyneth Paltrow"}
+      ]
+    },
+    {
+      "id": 19, "title": "The Silence of the Lambs", "year": 1991, "rating": 8.6,
+      "overview": "A young FBI cadet must receive the help of an incarcerated cannibalistic serial killer to catch another serial killer.",
+      "poster_url": null,
+      "genres": ["Crime", "Drama", "Thriller"],
+      "director": {"id": 10, "name": "Jonathan Demme"},
+      "actors": [
+        {"id": 48, "name": "Jodie Foster"},
+        {"id": 49, "name": "Anthony Hopkins"}
+      ]
+    },
+    {
+      "id": 20, "title": "Saving Private Ryan", "year": 1998, "rating": 8.6,
+      "overview": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper.",
+      "poster_url": null,
+      "genres": ["Drama", "War"],
+      "director": {"id": 11, "name": "Steven Spielberg"},
+      "actors": [
+        {"id": 24, "name": "Tom Hanks"},
+        {"id": 35, "name": "Matt Damon"},
+        {"id": 50, "name": "Tom Sizemore"},
+        {"id": 51, "name": "Vin Diesel"}
+      ]
+    },
+    {
+      "id": 21, "title": "Schindler's List", "year": 1993, "rating": 9.0,
+      "overview": "In German-occupied Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce.",
+      "poster_url": null,
+      "genres": ["Biography", "Drama", "History"],
+      "director": {"id": 11, "name": "Steven Spielberg"},
+      "actors": [
+        {"id": 52, "name": "Liam Neeson"},
+        {"id": 53, "name": "Ben Kingsley"},
+        {"id": 54, "name": "Ralph Fiennes"}
+      ]
+    },
+    {
+      "id": 22, "title": "The Godfather", "year": 1972, "rating": 9.2,
+      "overview": "The aging patriarch of an organized crime dynasty transfers control of his empire to his reluctant son.",
+      "poster_url": null,
+      "genres": ["Crime", "Drama"],
+      "director": {"id": 12, "name": "Francis Ford Coppola"},
+      "actors": [
+        {"id": 55, "name": "Marlon Brando"},
+        {"id": 56, "name": "Al Pacino"},
+        {"id": 57, "name": "James Caan"},
+        {"id": 32, "name": "Robert De Niro"}
+      ]
+    },
+    {
+      "id": 23, "title": "The Godfather Part II", "year": 1974, "rating": 9.0,
+      "overview": "The early life and career of Vito Corleone in 1920s New York is portrayed, while his son expands and tightens his grip on the family crime syndicate.",
+      "poster_url": null,
+      "genres": ["Crime", "Drama"],
+      "director": {"id": 12, "name": "Francis Ford Coppola"},
+      "actors": [
+        {"id": 56, "name": "Al Pacino"},
+        {"id": 32, "name": "Robert De Niro"},
+        {"id": 58, "name": "Robert Duvall"}
+      ]
+    },
+    {
+      "id": 24, "title": "Blade Runner 2049", "year": 2017, "rating": 8.0,
+      "overview": "Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard.",
+      "poster_url": null,
+      "genres": ["Sci-Fi", "Drama", "Mystery"],
+      "director": {"id": 13, "name": "Denis Villeneuve"},
+      "actors": [
+        {"id": 59, "name": "Ryan Gosling"},
+        {"id": 60, "name": "Harrison Ford"},
+        {"id": 61, "name": "Ana de Armas"}
+      ]
+    },
+    {
+      "id": 25, "title": "Dune", "year": 2021, "rating": 8.0,
+      "overview": "Paul Atreides unites with the Fremen people of the desert planet Arrakis to fight for his family's legacy.",
+      "poster_url": null,
+      "genres": ["Sci-Fi", "Adventure", "Drama"],
+      "director": {"id": 13, "name": "Denis Villeneuve"},
+      "actors": [
+        {"id": 62, "name": "Timothée Chalamet"},
+        {"id": 63, "name": "Rebecca Ferguson"},
+        {"id": 64, "name": "Zendaya"},
+        {"id": 65, "name": "Oscar Isaac"}
+      ]
+    },
+    {
+      "id": 26, "title": "Dune: Part Two", "year": 2024, "rating": 8.5,
+      "overview": "Paul Atreides unites with the Fremen to seek revenge against those who destroyed his family.",
+      "poster_url": null,
+      "genres": ["Sci-Fi", "Adventure", "Action"],
+      "director": {"id": 13, "name": "Denis Villeneuve"},
+      "actors": [
+        {"id": 62, "name": "Timothée Chalamet"},
+        {"id": 64, "name": "Zendaya"},
+        {"id": 63, "name": "Rebecca Ferguson"},
+        {"id": 66, "name": "Austin Butler"},
+        {"id": 67, "name": "Florence Pugh"}
+      ]
+    },
+    {
+      "id": 27, "title": "Parasite", "year": 2019, "rating": 8.5,
+      "overview": "Greed and class discrimination threaten the newly formed symbiotic relationship between a wealthy family and a destitute clan.",
+      "poster_url": null,
+      "genres": ["Comedy", "Drama", "Thriller"],
+      "director": {"id": 14, "name": "Bong Joon-ho"},
+      "actors": [
+        {"id": 68, "name": "Song Kang-ho"},
+        {"id": 69, "name": "Lee Sun-kyun"},
+        {"id": 70, "name": "Cho Yeo-jeong"},
+        {"id": 71, "name": "Choi Woo-shik"}
+      ]
+    },
+    {
+      "id": 28, "title": "Whiplash", "year": 2014, "rating": 8.5,
+      "overview": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor.",
+      "poster_url": null,
+      "genres": ["Drama", "Music"],
+      "director": {"id": 15, "name": "Damien Chazelle"},
+      "actors": [
+        {"id": 72, "name": "Miles Teller"},
+        {"id": 73, "name": "J.K. Simmons"}
+      ]
+    },
+    {
+      "id": 29, "title": "La La Land", "year": 2016, "rating": 8.0,
+      "overview": "While navigating their careers in Los Angeles, a pianist and an actress fall in love while pursuing their dreams.",
+      "poster_url": null,
+      "genres": ["Comedy", "Drama", "Music", "Romance"],
+      "director": {"id": 15, "name": "Damien Chazelle"},
+      "actors": [
+        {"id": 59, "name": "Ryan Gosling"},
+        {"id": 74, "name": "Emma Stone"},
+        {"id": 73, "name": "J.K. Simmons"}
+      ]
+    },
+    {
+      "id": 30, "title": "Mad Max: Fury Road", "year": 2015, "rating": 8.1,
+      "overview": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search of her homeland.",
+      "poster_url": null,
+      "genres": ["Action", "Adventure", "Sci-Fi"],
+      "director": {"id": 16, "name": "George Miller"},
+      "actors": [
+        {"id": 4, "name": "Tom Hardy"},
+        {"id": 75, "name": "Charlize Theron"},
+        {"id": 76, "name": "Nicholas Hoult"}
+      ]
+    },
+    {
+      "id": 31, "title": "The Social Network", "year": 2010, "rating": 7.8,
+      "overview": "As Harvard student Mark Zuckerberg creates the social networking site that would become Facebook, he is sued by the twins who claim he stole their idea.",
+      "poster_url": null,
+      "genres": ["Biography", "Drama"],
+      "director": {"id": 5, "name": "David Fincher"},
+      "actors": [
+        {"id": 77, "name": "Jesse Eisenberg"},
+        {"id": 78, "name": "Andrew Garfield"},
+        {"id": 79, "name": "Justin Timberlake"}
+      ]
+    },
+    {
+      "id": 32, "title": "Zodiac", "year": 2007, "rating": 7.7,
+      "overview": "In the late 1960s, a San Francisco cartoonist becomes an amateur detective obsessed with tracking down the Zodiac Killer.",
+      "poster_url": null,
+      "genres": ["Crime", "Drama", "Mystery"],
+      "director": {"id": 5, "name": "David Fincher"},
+      "actors": [
+        {"id": 80, "name": "Jake Gyllenhaal"},
+        {"id": 32, "name": "Robert De Niro"},
+        {"id": 37, "name": "Mark Wahlberg"}
+      ]
+    },
+    {
+      "id": 33, "title": "Inglourious Basterds", "year": 2009, "rating": 8.3,
+      "overview": "In Nazi-occupied France, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans.",
+      "poster_url": null,
+      "genres": ["Adventure", "Drama", "War"],
+      "director": {"id": 3, "name": "Quentin Tarantino"},
+      "actors": [
+        {"id": 21, "name": "Brad Pitt"},
+        {"id": 39, "name": "Christoph Waltz"},
+        {"id": 81, "name": "Mélanie Laurent"}
+      ]
+    },
+    {
+      "id": 34, "title": "Kill Bill: Volume 1", "year": 2003, "rating": 8.2,
+      "overview": "After awakening from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her.",
+      "poster_url": null,
+      "genres": ["Action", "Crime", "Thriller"],
+      "director": {"id": 3, "name": "Quentin Tarantino"},
+      "actors": [
+        {"id": 15, "name": "Uma Thurman"},
+        {"id": 82, "name": "Lucy Liu"},
+        {"id": 83, "name": "Vivica A. Fox"}
+      ]
+    },
+    {
+      "id": 35, "title": "Arrival", "year": 2016, "rating": 7.9,
+      "overview": "A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecrafts appear around the world.",
+      "poster_url": null,
+      "genres": ["Sci-Fi", "Drama", "Mystery"],
+      "director": {"id": 13, "name": "Denis Villeneuve"},
+      "actors": [
+        {"id": 84, "name": "Amy Adams"},
+        {"id": 85, "name": "Jeremy Renner"},
+        {"id": 86, "name": "Forest Whitaker"}
+      ]
+    },
+    {
+      "id": 36, "title": "Joker", "year": 2019, "rating": 8.4,
+      "overview": "Arthur Fleck, a party clown, leads an impoverished life. However, when society shuns him, he begins a slow descent into madness.",
+      "poster_url": null,
+      "genres": ["Crime", "Drama", "Thriller"],
+      "director": {"id": 17, "name": "Todd Phillips"},
+      "actors": [
+        {"id": 43, "name": "Joaquin Phoenix"},
+        {"id": 32, "name": "Robert De Niro"},
+        {"id": 87, "name": "Zazie Beetz"}
+      ]
+    },
+    {
+      "id": 37, "title": "The Grand Budapest Hotel", "year": 2014, "rating": 8.1,
+      "overview": "A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy.",
+      "poster_url": null,
+      "genres": ["Adventure", "Comedy", "Crime"],
+      "director": {"id": 18, "name": "Wes Anderson"},
+      "actors": [
+        {"id": 54, "name": "Ralph Fiennes"},
+        {"id": 88, "name": "F. Murray Abraham"},
+        {"id": 89, "name": "Tony Revolori"}
+      ]
+    },
+    {
+      "id": 38, "title": "No Country for Old Men", "year": 2007, "rating": 8.2,
+      "overview": "Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash.",
+      "poster_url": null,
+      "genres": ["Crime", "Drama", "Thriller"],
+      "director": {"id": 19, "name": "Joel Coen"},
+      "actors": [
+        {"id": 90, "name": "Javier Bardem"},
+        {"id": 91, "name": "Josh Brolin"},
+        {"id": 92, "name": "Tommy Lee Jones"}
+      ]
+    },
+    {
+      "id": 39, "title": "There Will Be Blood", "year": 2007, "rating": 8.2,
+      "overview": "A ruthless silver miner-turned-oil prospector competes with a local preacher as he begins to build an oil empire.",
+      "poster_url": null,
+      "genres": ["Drama"],
+      "director": {"id": 20, "name": "Paul Thomas Anderson"},
+      "actors": [
+        {"id": 93, "name": "Daniel Day-Lewis"},
+        {"id": 94, "name": "Paul Dano"}
+      ]
+    },
+    {
+      "id": 40, "title": "The Revenant", "year": 2015, "rating": 8.0,
+      "overview": "A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear.",
+      "poster_url": null,
+      "genres": ["Action", "Adventure", "Drama"],
+      "director": {"id": 21, "name": "Alejandro G. Iñárritu"},
+      "actors": [
+        {"id": 1, "name": "Leonardo DiCaprio"},
+        {"id": 4, "name": "Tom Hardy"},
+        {"id": 95, "name": "Domhnall Gleeson"}
+      ]
+    },
+    {
+      "id": 41, "title": "Oppenheimer", "year": 2023, "rating": 8.3,
+      "overview": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.",
+      "poster_url": null,
+      "genres": ["Biography", "Drama", "History"],
+      "director": {"id": 1, "name": "Christopher Nolan"},
+      "actors": [
+        {"id": 96, "name": "Cillian Murphy"},
+        {"id": 97, "name": "Emily Blunt"},
+        {"id": 35, "name": "Matt Damon"},
+        {"id": 98, "name": "Robert Downey Jr."},
+        {"id": 67, "name": "Florence Pugh"}
+      ]
+    },
+    {
+      "id": 42, "title": "Tenet", "year": 2020, "rating": 7.3,
+      "overview": "Armed with only one word, a CIA operative journeys through time to prevent World War III.",
+      "poster_url": null,
+      "genres": ["Action", "Sci-Fi", "Thriller"],
+      "director": {"id": 1, "name": "Christopher Nolan"},
+      "actors": [
+        {"id": 99, "name": "John David Washington"},
+        {"id": 100, "name": "Robert Pattinson"},
+        {"id": 101, "name": "Elizabeth Debicki"}
+      ]
+    },
+    {
+      "id": 43, "title": "Once Upon a Time in Hollywood", "year": 2019, "rating": 7.6,
+      "overview": "A faded television actor and his stunt double strive to achieve fame and success in the final years of Hollywood's Golden Age.",
+      "poster_url": null,
+      "genres": ["Comedy", "Drama"],
+      "director": {"id": 3, "name": "Quentin Tarantino"},
+      "actors": [
+        {"id": 1, "name": "Leonardo DiCaprio"},
+        {"id": 21, "name": "Brad Pitt"},
+        {"id": 41, "name": "Margot Robbie"}
+      ]
+    },
+    {
+      "id": 44, "title": "Catch Me If You Can", "year": 2002, "rating": 8.1,
+      "overview": "A seasoned FBI agent pursues a brilliant young con artist who successfully posed as a pilot, doctor, and lawyer.",
+      "poster_url": null,
+      "genres": ["Biography", "Crime", "Drama"],
+      "director": {"id": 11, "name": "Steven Spielberg"},
+      "actors": [
+        {"id": 1, "name": "Leonardo DiCaprio"},
+        {"id": 24, "name": "Tom Hanks"},
+        {"id": 102, "name": "Christopher Walken"}
+      ]
+    },
+    {
+      "id": 45, "title": "The Truman Show", "year": 1998, "rating": 8.2,
+      "overview": "An insurance salesman discovers his whole life is actually a reality TV show.",
+      "poster_url": null,
+      "genres": ["Comedy", "Drama"],
+      "director": {"id": 22, "name": "Peter Weir"},
+      "actors": [
+        {"id": 103, "name": "Jim Carrey"},
+        {"id": 104, "name": "Ed Harris"},
+        {"id": 105, "name": "Laura Linney"}
+      ]
+    },
+    {
+      "id": 46, "title": "Memento", "year": 2000, "rating": 8.4,
+      "overview": "A man with short-term memory loss attempts to track down his wife's murderer.",
+      "poster_url": null,
+      "genres": ["Mystery", "Thriller"],
+      "director": {"id": 1, "name": "Christopher Nolan"},
+      "actors": [
+        {"id": 106, "name": "Guy Pearce"},
+        {"id": 20, "name": "Carrie-Anne Moss"},
+        {"id": 107, "name": "Joe Pantoliano"}
+      ]
+    },
+    {
+      "id": 47, "title": "Shutter Island", "year": 2010, "rating": 8.2,
+      "overview": "In 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane.",
+      "poster_url": null,
+      "genres": ["Mystery", "Thriller"],
+      "director": {"id": 8, "name": "Martin Scorsese"},
+      "actors": [
+        {"id": 1, "name": "Leonardo DiCaprio"},
+        {"id": 37, "name": "Mark Wahlberg"},
+        {"id": 53, "name": "Ben Kingsley"}
+      ]
+    },
+    {
+      "id": 48, "title": "The Batman", "year": 2022, "rating": 7.8,
+      "overview": "When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate.",
+      "poster_url": null,
+      "genres": ["Action", "Crime", "Drama"],
+      "director": {"id": 23, "name": "Matt Reeves"},
+      "actors": [
+        {"id": 100, "name": "Robert Pattinson"},
+        {"id": 64, "name": "Zendaya"},
+        {"id": 108, "name": "Paul Dano"},
+        {"id": 109, "name": "Colin Farrell"}
+      ]
+    },
+    {
+      "id": 49, "title": "Everything Everywhere All at Once", "year": 2022, "rating": 7.8,
+      "overview": "A middle-aged Chinese immigrant is swept up in an insane adventure where she alone can save existence.",
+      "poster_url": null,
+      "genres": ["Action", "Adventure", "Comedy", "Fantasy"],
+      "director": {"id": 24, "name": "Daniel Kwan"},
+      "actors": [
+        {"id": 110, "name": "Michelle Yeoh"},
+        {"id": 111, "name": "Ke Huy Quan"},
+        {"id": 112, "name": "Stephanie Hsu"},
+        {"id": 113, "name": "Jamie Lee Curtis"}
+      ]
+    },
+    {
+      "id": 50, "title": "Spider-Man: Into the Spider-Verse", "year": 2018, "rating": 8.4,
+      "overview": "Teen Miles Morales becomes the Spider-Man of his universe and must join with five spider-powered individuals to stop a threat.",
+      "poster_url": null,
+      "genres": ["Animation", "Action", "Adventure"],
+      "director": {"id": 25, "name": "Bob Persichetti"},
+      "actors": [
+        {"id": 114, "name": "Shameik Moore"},
+        {"id": 115, "name": "Jake Johnson"},
+        {"id": 116, "name": "Hailee Steinfeld"}
+      ]
+    }
+  ]
+}
