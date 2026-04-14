@@ -91,7 +91,7 @@ export function ForceGraph({ data, height = 500, onNodeClick, compact = false }:
     const isHovered = hoveredNode === node.id;
     const fontSize = compact ? 3.2 : 3.8;
 
-    ctx.font = `bold ${fontSize}px Geist Sans, system-ui, sans-serif`;
+    ctx.font = `bold ${fontSize}px "Space Grotesk", system-ui, sans-serif`;
     const textWidth = ctx.measureText(label).width;
     const padX = 3, padY = 2;
     const nodeW = textWidth + padX * 2;
@@ -146,7 +146,7 @@ export function ForceGraph({ data, height = 500, onNodeClick, compact = false }:
       const mx = (s.x + t.x) / 2, my = (s.y + t.y) / 2;
       const text = (link.type || "").replace(/_/g, " ").toLowerCase();
       const fs = compact ? 2 : 2.2;
-      ctx.font = `500 ${fs}px Geist Sans, system-ui, sans-serif`;
+      ctx.font = `500 ${fs}px "Space Grotesk", system-ui, sans-serif`;
       const tw = ctx.measureText(text).width;
       ctx.fillStyle = "rgba(40, 40, 40, 0.85)";
       roundRect(ctx, mx - tw / 2 - 1.2, my - fs / 2 - 0.8, tw + 2.4, fs + 1.6, 1); ctx.fill();
